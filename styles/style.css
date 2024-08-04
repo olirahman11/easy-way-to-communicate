@@ -1,0 +1,92 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+.nav-list{
+    display: flex;
+    gap:  30px;
+}
+ul>li a{
+    text-decoration: none;
+    color: #909193;
+
+}
+ul li{
+    list-style: none;
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.banner-info{
+    margin-top: 4em ;
+    margin-left: 6em;
+}
+.banner-text{
+    font-size: 4em;
+    color: #223344;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.banner-description-1{
+    font-size: 12px;
+    font-weight: 600;
+    color: #223344;
+    margin-bottom: 0px;
+    
+}
+.banner-description-2{
+    color: #223344;
+    font-size: 15px;
+    margin-top: 2em;
+
+}
+.banner-image img{
+    width: 550px;
+    height: auto;
+    
+    
+}
+.banner-image{
+    display: flex;
+    margin-top: 8em;
+}
+.button{
+    margin-top: 2em;
+}
+.btn {
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #2A4DD0;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+.button a{
+    color: #2A4DD0;
+    font-weight: 600;
+    margin-left: 1.5em;
+}
+.credit-card, .software{
+    display: flex;
+    gap: 10px
+    ;
+}
+.text{
+    margin-top: 2em;
+    display: flex;
+    gap: 20px;
+}
+.text p{
+    font-size: 0.8em;
+    color: #223344;
+}
